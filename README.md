@@ -1,4 +1,4 @@
-# quicksort
+# Quick Sort
 
 ## Project Overview
 
@@ -6,17 +6,11 @@ This project implements the Quick Sort algorithm in C++ using templates, allowin
 
 ## Quick Sort Algorithm
 
+Quick Sort is a highly efficient sorting algorithm that uses a divide-and-conquer approach. It works as follows:
+
 - Best For: General-purpose sorting, large datasets.
 - Time Complexity: Average O(n log n), Worst O(n²)
 - Description: A divide-and-conquer algorithm that selects a pivot and partitions - the array into two sub-arrays, recursively sorting them.
-
-Quick Sort is a highly efficient sorting algorithm that uses a divide-and-conquer approach. It works as follows:
-
-1. **Choose a Pivot**: Select an element from the array to act as the pivot.
-2. **Partition**: Rearrange the array so that all elements less than the pivot come before it, and all elements greater come after it.
-3. **Recursively Sort**: Apply the same process to the sub-arrays of elements with smaller and larger values.
-
-The algorithm has an average time complexity of O(n log n) and is known for its efficiency with large datasets.
 
 ### Time Complexity
 
